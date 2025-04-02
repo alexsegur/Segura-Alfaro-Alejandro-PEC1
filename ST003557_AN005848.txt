@@ -1,0 +1,185 @@
+#METABOLOMICS WORKBENCH Sethjparker_20241101_174808 DATATRACK_ID:5335 STUDY_ID:ST003557 ANALYSIS_ID:AN005848 PROJECT_ID:PR002191
+VERSION             	1
+CREATED_ON             	November 4, 2024, 12:56 pm
+#PROJECT
+PR:PROJECT_TITLE                 	N-methyl-arginine is taken up into the liver, brain, and kidney of mice.
+PR:PROJECT_TYPE                  	Manuscript
+PR:PROJECT_SUMMARY               	N-methyl-arginine was identified as a transported substrate through multiple
+PR:PROJECT_SUMMARY               	cationic amino acid transporters, which facilitate the uptake of lysine,
+PR:PROJECT_SUMMARY               	arginine, and other structurally related amino acids. In cell culture,
+PR:PROJECT_SUMMARY               	N-methyl-arginine inhibits the uptake and metabolism of lysine. In this project,
+PR:PROJECT_SUMMARY               	we aimed to determine if N-methyl-arginine administered to mice at 80 mg/kg was
+PR:PROJECT_SUMMARY               	sufficient to inhibit tissue lysine uptake and metabolism. Following a single
+PR:PROJECT_SUMMARY               	injection, N-methyl-arginine significantly accumulated in mouse plasma and
+PR:PROJECT_SUMMARY               	tissues but failed to significantly inhibit the level of lysine metabolites
+PR:PROJECT_SUMMARY               	(e.g., saccharopine). These results are in-line with in vitro results suggesting
+PR:PROJECT_SUMMARY               	that N-methyl-arginine is a relatively low affinity transport inhibitor.
+PR:INSTITUTE                     	University of British Columbia
+PR:DEPARTMENT                    	Biochemistry & Molecular Biology
+PR:LABORATORY                    	Parker laboratory
+PR:LAST_NAME                     	Parker
+PR:FIRST_NAME                    	Seth
+PR:ADDRESS                       	950 W 28th Ave, Vancouver, British Columbia, V6H 0B3, Canada
+PR:EMAIL                         	seth.parker@bcchr.ca
+PR:PHONE                         	6048753121
+#STUDY
+ST:STUDY_TITLE                   	Metabolomics analysis of kidney, brain, liver, and plasma from Aldh7a1-/- mice
+ST:STUDY_TITLE                   	administered PBS or N-methyl-arginine (80 mg/kg) via a single intraperitoneal
+ST:STUDY_TITLE                   	injection.
+ST:STUDY_SUMMARY                 	Metabolite analysis of kidney, brain, liver, and plasma isolated from Aldh7a1-/-
+ST:STUDY_SUMMARY                 	mice fed diets consisting of 0.9% w/w lysine and 18 ppm pyridoxine. Tissues were
+ST:STUDY_SUMMARY                 	cryo-homogenized using a liquid nitrogen cooled mortar and pestle into a fine
+ST:STUDY_SUMMARY                 	powder and approximately 25-50 mg of each tissue was transferred to a
+ST:STUDY_SUMMARY                 	pre-weighed homogenization tube to which ~20 2.3 mm zirconia beads and 1 mL of
+ST:STUDY_SUMMARY                 	80% ice cold methanol were added. Tissues were homogenized using a bead mill and
+ST:STUDY_SUMMARY                 	cleared by centrifugation at 4C, where each of the 3-4 cycles consisted of a 60
+ST:STUDY_SUMMARY                 	second homogenization at 6 m/s followed by a 30 second pause. A volume
+ST:STUDY_SUMMARY                 	equivalent to 25 mg of tissue extract was transferred to a new tube, and 250 ul
+ST:STUDY_SUMMARY                 	of 80% methanol containing 1 ul of stable isotope-labeled internal amino acid
+ST:STUDY_SUMMARY                 	standard mix was added. Metabolites were concentrated using a SpeedVac until
+ST:STUDY_SUMMARY                 	dry. For plasma metabolite analysis, 10 µl of plasma was added to 250 µl of
+ST:STUDY_SUMMARY                 	80% methanol containing 1 µl of stable isotope-labeled internal amino acid
+ST:STUDY_SUMMARY                 	standard mix, vortexed at 4C for 10 minutes, and centrifuged. 0.9 ml of
+ST:STUDY_SUMMARY                 	supernatant was transferred to a new tube and concentrated using a SpeedVac
+ST:STUDY_SUMMARY                 	until dry. Metabolites were reconstituted into 25-50 µl of water, vortexed,
+ST:STUDY_SUMMARY                 	centrifuged, and transferred to vials for analysis by LCMS. LCMS was performed
+ST:STUDY_SUMMARY                 	using a ZIC-pHILIC LC column coupled to a Vanquish LC and a flow gradient
+ST:STUDY_SUMMARY                 	consisting of 10 mM ammonium carbonate in water and pure acetonitrile. The LC
+ST:STUDY_SUMMARY                 	was coupled to an Exploris 240 mass spectrometer operated in a polarity
+ST:STUDY_SUMMARY                 	switching data-dependent Top 5 mode. Full MS scan parameters for both positive
+ST:STUDY_SUMMARY                 	and negative mode were set to 67-1000 m/z at a resolution of 120k and ddMS2 were
+ST:STUDY_SUMMARY                 	collected at a resolution of 30k.
+ST:INSTITUTE                     	University of British Columbia
+ST:DEPARTMENT                    	Biochemistry & Molecular Biology
+ST:LABORATORY                    	Parker laboratory
+ST:LAST_NAME                     	Parker
+ST:FIRST_NAME                    	Seth
+ST:ADDRESS                       	950 W 28th Ave, Vancouver, British Columbia, V6H 0B3, Canada
+ST:EMAIL                         	seth.parker@bcchr.ca
+ST:PHONE                         	6048753121
+#SUBJECT
+SU:SUBJECT_TYPE                  	Mammal
+SU:SUBJECT_SPECIES               	Mus musculus
+SU:TAXONOMY_ID                   	10090
+SU:GENDER                        	Male and female
+SU:ANIMAL_FEED                   	0.9% w/w lysine, 18 ppm pyridoxine (standard diets)
+#SUBJECT_SAMPLE_FACTORS:         	SUBJECT(optional)[tab]SAMPLE[tab]FACTORS(NAME:VALUE pairs separated by |)[tab]Raw file names and additional sample data
+SUBJECT_SAMPLE_FACTORS           	-	1	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Brain	Sex=M; Age (weeks)=8.4; RAW_FILE_NAME(Raw file name)=1.RAW
+SUBJECT_SAMPLE_FACTORS           	-	2	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Brain	Sex=M; Age (weeks)=8.4; RAW_FILE_NAME(Raw file name)=2.RAW
+SUBJECT_SAMPLE_FACTORS           	-	3	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Brain	Sex=F; Age (weeks)=15.3; RAW_FILE_NAME(Raw file name)=3.RAW
+SUBJECT_SAMPLE_FACTORS           	-	4	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Brain	Sex=F; Age (weeks)=15.3; RAW_FILE_NAME(Raw file name)=4.RAW
+SUBJECT_SAMPLE_FACTORS           	-	5	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Brain	Sex=M; Age (weeks)=21.4; RAW_FILE_NAME(Raw file name)=5.RAW
+SUBJECT_SAMPLE_FACTORS           	-	6	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Brain	Sex=M; Age (weeks)=21.4; RAW_FILE_NAME(Raw file name)=6.RAW
+SUBJECT_SAMPLE_FACTORS           	-	7	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Brain	Sex=M; Age (weeks)=32.9; RAW_FILE_NAME(Raw file name)=7.RAW
+SUBJECT_SAMPLE_FACTORS           	-	8	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Brain	Sex=M; Age (weeks)=32.9; RAW_FILE_NAME(Raw file name)=8.RAW
+SUBJECT_SAMPLE_FACTORS           	-	9	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Brain	Sex=F; Age (weeks)=5.9; RAW_FILE_NAME(Raw file name)=9.RAW
+SUBJECT_SAMPLE_FACTORS           	-	10	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Brain	Sex=F; Age (weeks)=5.9; RAW_FILE_NAME(Raw file name)=10.RAW
+SUBJECT_SAMPLE_FACTORS           	-	11	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Liver	Sex=M; Age (weeks)=8.4; RAW_FILE_NAME(Raw file name)=11.RAW
+SUBJECT_SAMPLE_FACTORS           	-	12	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Liver	Sex=M; Age (weeks)=8.4; RAW_FILE_NAME(Raw file name)=12.RAW
+SUBJECT_SAMPLE_FACTORS           	-	13	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Liver	Sex=F; Age (weeks)=15.3; RAW_FILE_NAME(Raw file name)=13.RAW
+SUBJECT_SAMPLE_FACTORS           	-	14	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Liver	Sex=F; Age (weeks)=15.3; RAW_FILE_NAME(Raw file name)=14.RAW
+SUBJECT_SAMPLE_FACTORS           	-	15	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Liver	Sex=M; Age (weeks)=21.4; RAW_FILE_NAME(Raw file name)=15.RAW
+SUBJECT_SAMPLE_FACTORS           	-	16	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Liver	Sex=M; Age (weeks)=21.4; RAW_FILE_NAME(Raw file name)=16.RAW
+SUBJECT_SAMPLE_FACTORS           	-	17	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Liver	Sex=M; Age (weeks)=32.9; RAW_FILE_NAME(Raw file name)=17.RAW
+SUBJECT_SAMPLE_FACTORS           	-	18	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Liver	Sex=M; Age (weeks)=32.9; RAW_FILE_NAME(Raw file name)=18.RAW
+SUBJECT_SAMPLE_FACTORS           	-	19	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Liver	Sex=F; Age (weeks)=5.9; RAW_FILE_NAME(Raw file name)=19.RAW
+SUBJECT_SAMPLE_FACTORS           	-	20	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Liver	Sex=F; Age (weeks)=5.9; RAW_FILE_NAME(Raw file name)=20.RAW
+SUBJECT_SAMPLE_FACTORS           	-	21	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Kidney	Sex=M; Age (weeks)=8.4; RAW_FILE_NAME(Raw file name)=21.RAW
+SUBJECT_SAMPLE_FACTORS           	-	22	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Kidney	Sex=M; Age (weeks)=8.4; RAW_FILE_NAME(Raw file name)=22.RAW
+SUBJECT_SAMPLE_FACTORS           	-	23	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Kidney	Sex=F; Age (weeks)=15.3; RAW_FILE_NAME(Raw file name)=23.RAW
+SUBJECT_SAMPLE_FACTORS           	-	24	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Kidney	Sex=F; Age (weeks)=15.3; RAW_FILE_NAME(Raw file name)=24.RAW
+SUBJECT_SAMPLE_FACTORS           	-	25	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Kidney	Sex=M; Age (weeks)=21.4; RAW_FILE_NAME(Raw file name)=25.RAW
+SUBJECT_SAMPLE_FACTORS           	-	26	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Kidney	Sex=M; Age (weeks)=21.4; RAW_FILE_NAME(Raw file name)=26.RAW
+SUBJECT_SAMPLE_FACTORS           	-	27	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Kidney	Sex=M; Age (weeks)=32.9; RAW_FILE_NAME(Raw file name)=27.RAW
+SUBJECT_SAMPLE_FACTORS           	-	28	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Kidney	Sex=M; Age (weeks)=32.9; RAW_FILE_NAME(Raw file name)=28.RAW
+SUBJECT_SAMPLE_FACTORS           	-	29	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Kidney	Sex=F; Age (weeks)=5.9; RAW_FILE_NAME(Raw file name)=29.RAW
+SUBJECT_SAMPLE_FACTORS           	-	31	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Plasma	Sex=M; Age (weeks)=8.4; RAW_FILE_NAME(Raw file name)=31.RAW
+SUBJECT_SAMPLE_FACTORS           	-	32	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Plasma	Sex=M; Age (weeks)=8.4; RAW_FILE_NAME(Raw file name)=32.RAW
+SUBJECT_SAMPLE_FACTORS           	-	33	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Plasma	Sex=F; Age (weeks)=15.3; RAW_FILE_NAME(Raw file name)=33.RAW
+SUBJECT_SAMPLE_FACTORS           	-	34	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Plasma	Sex=F; Age (weeks)=15.3; RAW_FILE_NAME(Raw file name)=34.RAW
+SUBJECT_SAMPLE_FACTORS           	-	35	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Plasma	Sex=M; Age (weeks)=21.4; RAW_FILE_NAME(Raw file name)=35.RAW
+SUBJECT_SAMPLE_FACTORS           	-	36	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Plasma	Sex=M; Age (weeks)=21.4; RAW_FILE_NAME(Raw file name)=36.RAW
+SUBJECT_SAMPLE_FACTORS           	-	37	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Plasma	Sex=M; Age (weeks)=32.9; RAW_FILE_NAME(Raw file name)=37.RAW
+SUBJECT_SAMPLE_FACTORS           	-	38	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Plasma	Sex=M; Age (weeks)=32.9; RAW_FILE_NAME(Raw file name)=38.RAW
+SUBJECT_SAMPLE_FACTORS           	-	39	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Plasma	Sex=F; Age (weeks)=5.9; RAW_FILE_NAME(Raw file name)=39.RAW
+SUBJECT_SAMPLE_FACTORS           	-	40	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Plasma	Sex=F; Age (weeks)=5.9; RAW_FILE_NAME(Raw file name)=40.RAW
+#COLLECTION
+CO:COLLECTION_SUMMARY            	Liver, brain, kidney, or plasma samples collected from mice treated with PBS or
+CO:COLLECTION_SUMMARY            	N-methyl-arginine (80 mg/kg) as a single intraperitoneal injection. Tissues
+CO:COLLECTION_SUMMARY            	collected 7-hours after injection.
+CO:SAMPLE_TYPE                   	Tissue or Plasma
+#TREATMENT
+TR:TREATMENT_SUMMARY             	Mice were administered a single intraperitoneal injection containing either
+TR:TREATMENT_SUMMARY             	saline or N-methyl-arginine (80 mg/kg). 7-hours after the injection, the mice
+TR:TREATMENT_SUMMARY             	were euthanized by cardiac puncture, and tissues were isolated for analysis by
+TR:TREATMENT_SUMMARY             	LCMS.
+TR:TREATMENT_COMPOUND            	N-methyl-arginine
+TR:TREATMENT_ROUTE               	Intraperitoneal
+TR:TREATMENT_DOSE                	80 mg/kg
+TR:TREATMENT_VEHICLE             	PBS
+#SAMPLEPREP
+SP:SAMPLEPREP_SUMMARY            	Dried samples were reconstituted in 50 µL of HPLC-grade water. Samples were
+SP:SAMPLEPREP_SUMMARY            	vortexed for ~10 minutes, then centrifuged at 21,000 x g for 15 min at 4°C. 40
+SP:SAMPLEPREP_SUMMARY            	microliters were transferred to LC vials containing glass inserts for analysis.
+#CHROMATOGRAPHY
+CH:CHROMATOGRAPHY_TYPE           	HILIC
+CH:INSTRUMENT_NAME               	Thermo Vanquish
+CH:COLUMN_NAME                   	Merck SeQuant ZIC-pHILIC (150 x 2.1mm,5um)
+CH:SOLVENT_A                     	100% water, 10 mM Ammonium Carbonate, pH 9.0
+CH:SOLVENT_B                     	100% acetonitrile
+CH:FLOW_GRADIENT                 	80-20%B (0-30 min), 20-20%B (30-40 minute), and 20-80%B (40-40.5 minute); the LC
+CH:FLOW_GRADIENT                 	column was re-equilibrated using 80-80%B from 40.5-52 minute before subsequent
+CH:FLOW_GRADIENT                 	injections
+CH:FLOW_RATE                     	100 uL/min
+CH:COLUMN_TEMPERATURE            	25
+#ANALYSIS
+AN:ANALYSIS_TYPE                 	MS
+#MS
+MS:INSTRUMENT_NAME               	Thermo Exploris 240
+MS:INSTRUMENT_TYPE               	Orbitrap
+MS:MS_TYPE                       	ESI
+MS:ION_MODE                      	NEGATIVE
+MS:MS_COMMENTS                   	The LC was coupled to a Thermo Scientific Exploris 240 mass spectrometer
+MS:MS_COMMENTS                   	operating in heated electrospray ionization mode (HESI) for analysis. The
+MS:MS_COMMENTS                   	following parameters were set for HESI: spray voltage 3.4 kV (positive) and 2 kV
+MS:MS_COMMENTS                   	(negative), static spray voltage, sheath gas 25, aux gas 5, sweep gas 0.5, ion
+MS:MS_COMMENTS                   	transfer tube temperature 320oC, and vaporizer temperature 75oC. The global
+MS:MS_COMMENTS                   	parameters included an expected peak width of 20 seconds, mild trapping, and a
+MS:MS_COMMENTS                   	default charge state of 1. A 40-min polarity switching data-dependent Top 5
+MS:MS_COMMENTS                   	method was used for positive mode and a data-dependent Top 3 method was used for
+MS:MS_COMMENTS                   	negative mode. Full MS scan parameters for both positive and negative modes were
+MS:MS_COMMENTS                   	set as follows: scan range 67-1000 m/z collected in profile mode, Orbitrap
+MS:MS_COMMENTS                   	resolution 120,000, RF lens 70%, AGC target of 300%, and maximum injection time
+MS:MS_COMMENTS                   	set to automatic. ddMS2 for positive mode were collected in centroid mode at an
+MS:MS_COMMENTS                   	Orbitrap resolution of 30,000, isolation window of 1.5 m/z, an AGC target set to
+MS:MS_COMMENTS                   	standard, a maximum injection time set to automatic, and a normalized collision
+MS:MS_COMMENTS                   	energy set to 10%, 30%, and 80%. ddMS2 for negative mode were collected in
+MS:MS_COMMENTS                   	centroid mode at an Orbitrap resolution of 30,000, isolation window of 2 m/z, an
+MS:MS_COMMENTS                   	AGC target set to standard, a maximum injection time set to automatic, and a
+MS:MS_COMMENTS                   	normalized collision energy set to 30%. For both positive and negative ddMS2, we
+MS:MS_COMMENTS                   	applied an intensity threshold of 5e4 and a dynamic exclusion of 5 ppm for 10
+MS:MS_COMMENTS                   	seconds, excluding isotopes. A targeted selected ion monitoring (tSIM) scan was
+MS:MS_COMMENTS                   	also included for pipecolate and P6C/P2C, and the retention time ranges were
+MS:MS_COMMENTS                   	based on elution of authentic standards (pipecolate) or from positive samples
+MS:MS_COMMENTS                   	(Aldh7a1-deficient tissues). The tSIM scan for pipecolate was collected from
+MS:MS_COMMENTS                   	8-12 minutes in negative mode at an isolation window of 4 m/z (for metabolomics)
+MS:MS_COMMENTS                   	or 18 m/z (for isotope-tracing experiments, to include m/z shifts), an Orbitrap
+MS:MS_COMMENTS                   	resolution of 120,000, a RF lens at 70%, an automatic maximum injection time,
+MS:MS_COMMENTS                   	and collected in profile mode. The tSIM scan for P6C/P2C was collected from 6-10
+MS:MS_COMMENTS                   	minutes in positive mode at an isolation window of 4 m/z (for metabolomics) or
+MS:MS_COMMENTS                   	18 m/z (for isotope-tracing experiments, to include m/z shifts), an Orbitrap
+MS:MS_COMMENTS                   	resolution of 120,000, a RF lens at 70%, an automatic maximum injection time,
+MS:MS_COMMENTS                   	and collected in profile mode.
+#MS_METABOLITE_DATA
+MS_METABOLITE_DATA:UNITS	Ion counts
+MS_METABOLITE_DATA_START
+Samples	1	3	5	7	9	2	4	6	8	10	11	13	15	17	19	12	14	16	18	20	21	23	25	27	29	22	24	26	28	31	33	35	37	39	32	34	36	38	40
+Factors	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Brain	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Brain	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Brain	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Brain	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Brain	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Brain	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Brain	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Brain	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Brain	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Brain	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Liver	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Liver	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Liver	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Liver	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Liver	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Liver	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Liver	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Liver	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Liver	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Liver	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Kidney	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Kidney	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Kidney	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Kidney	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Kidney	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Kidney	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Kidney	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Kidney	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Kidney	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Plasma	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Plasma	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Plasma	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Plasma	Genotype:Aldh7a1-/- | Treatment:PBS | Sample source:Plasma	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Plasma	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Plasma	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Plasma	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Plasma	Genotype:Aldh7a1-/- | Treatment:N-methyl-arginine (80 mg/kg) | Sample source:Plasma
+PIPECOLATE	3267190.42	2459096.856	4772595.805	3744580.555	2913888.843	2997165.679	2962459.076	1132528.111	3519034.469	4329782.56	1345416.866	773795.0803	1702220.903	2231057.066	752997.2457	1499956.584	835180.7627	2064595.059	1718924.692	1167865.234	1630229.174	4488683.268	1762488.697	4003763.632	8502440.425	2708743.334	3432169.022	6072395.359	3935664.047	470388.1395	351046.9878	876103.5673	795581.5598	516244.9966	581338.0982	352103.8412	412174.5298	620664.1561	747377.1841
+MS_METABOLITE_DATA_END
+#METABOLITES
+METABOLITES_START
+metabolite_name	Mode	m/z	Retention Time (min)	HMDB ID
+PIPECOLATE	Negative	128.0717	9.32	HMDB0000716
+METABOLITES_END
+#END
