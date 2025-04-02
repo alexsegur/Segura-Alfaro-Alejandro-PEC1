@@ -1,0 +1,197 @@
+---
+title: "Untitled"
+author: "Alejandro_Segura_Alfaro"
+date: "2025-04-02"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Study ID	ST003557
+
+Study Summary:
+
+Metabolite analysis of kidney, brain, liver, and plasma isolated from Aldh7a1-/- mice fed diets consisting of 0.9% w/w lysine and 18 ppm pyridoxine. Tissues were cryo-homogenized using a liquid nitrogen cooled mortar and pestle into a fine powder and approximately 25-50 mg of each tissue was transferred to a pre-weighed homogenization tube to which ~20 2.3 mm zirconia beads and 1 mL of 80% ice cold methanol were added. Tissues were homogenized using a bead mill and cleared by centrifugation at 4C, where each of the 3-4 cycles consisted of a 60 second homogenization at 6 m/s followed by a 30 second pause. A volume equivalent to 25 mg of tissue extract was transferred to a new tube, and 250 µL of 80% methanol containing 1 µL of stable isotope-labeled internal amino acid standard mix was added. Metabolites were concentrated using a SpeedVac until dry. For plasma metabolite analysis, 10 µL of plasma was added to 250 µL of 80% methanol containing 1 µl of stable isotope-labeled internal amino acid standard mix, vortexed at 4C for 10 minutes, and centrifuged. 0.9 ml of supernatant was transferred to a new tube and concentrated using a SpeedVac until dry. Metabolites were reconstituted into 25-50 µL of water, vortexed, centrifuged, and transferred to vials for analysis by LCMS. LCMS was performed using a ZIC-pHILIC LC column coupled to a Vanquish LC and a flow gradient consisting of 10 mM ammonium carbonate in water and pure acetonitrile. The LC was coupled to an Exploris 240 mass spectrometer operated in a polarity switching data-dependent Top 5 mode. Full MS scan parameters for both positive and negative mode were set to 67-1000 m/z at a resolution of 120k and ddMS2 were collected at a resolution of 30k.
+
+Institute: University of British Columbia
+
+Department:	Biochemistry & Molecular Biology
+
+Laboratory:	Parker laboratory
+
+Last Name:	Parker
+
+First Name:	Seth
+
+Address: 	950 W 28th Ave, Vancouver, British Columbia, V6H 0B3, Canada
+
+Email:	seth.parker@bcchr.ca
+
+Phone:	6048753121
+
+Submit Date:	2024-11-01
+
+Raw Data Available:	Yes
+
+Raw Data File Type(s):	raw(Thermo)
+
+Analysis Type Detail:	LC-MS
+
+Release Date:	2024-11-15
+
+Release Version:	1
+
+Project ID:	PR002191
+
+Project DOI:	doi: 10.21228/M8DN9K
+
+Project Title:	N-methyl-arginine is taken up into the liver, brain, and kidney of mice.
+
+Project Type:	Manuscript
+
+Subject ID:	SU003686
+
+Subject Type:	Mammal
+
+Subject Species:	Mus musculus
+
+Taxonomy ID:	10090
+
+Gender:	Male and female
+
+Animal Feed:	0.9% w/w lysine, 18 ppm pyridoxine (standard diets)
+
+Species Group:	Mammals
+
+mb_sample_id	local_sample_id	Genotype	Treatment	             Sample source
+SA388565	     4	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Brain
+SA388566	     6	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Brain
+SA388567	     8	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Brain
+SA388568	     10	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Brain
+SA388569	     2	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Brain
+SA388570	     28	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Kidney
+SA388571	     22	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Kidney
+SA388572	     24	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Kidney
+SA388573	     26	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Kidney
+SA388574	     18	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Liver
+SA388575	     16	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Liver
+SA388576	     20	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Liver
+SA388577	     14	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Liver
+SA388578	     12	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Liver
+SA388579	     34	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Plasma
+SA388580	     36	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Plasma
+SA388581	     38	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Plasma
+SA388582	     40	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Plasma
+SA388583	     32	          Aldh7a1-/-	N-methyl-arginine (80 mg/kg)	Plasma
+SA388584	     1	          Aldh7a1-/-	PBS	                          Brain
+SA388585	     3	          Aldh7a1-/-	PBS	                          Brain
+SA388586	     5	          Aldh7a1-/-	PBS	                          Brain
+SA388587	     7	          Aldh7a1-/-	PBS	                          Brain
+SA388588	     9	          Aldh7a1-/-	PBS	                          Brain
+SA388589	     21	          Aldh7a1-/-	PBS	                          Kidney
+SA388590	     23	          Aldh7a1-/-	PBS	                          Kidney
+SA388591	     25	          Aldh7a1-/-	PBS	                          Kidney
+SA388592	     27	          Aldh7a1-/-	PBS	                          Kidney
+SA388593	     29	          Aldh7a1-/-	PBS	                          Kidney
+SA388594	     19	          Aldh7a1-/-	PBS	                          Liver
+SA388595	     13	          Aldh7a1-/-	PBS	                          Liver
+SA388596	     15	          Aldh7a1-/-	PBS                          	Liver
+SA388597	     17	          Aldh7a1-/-	PBS	                          Liver
+SA388598	     11	          Aldh7a1-/-	PBS                          	Liver
+SA388599	     33	          Aldh7a1-/-	PBS	                          Plasma
+SA388600	     31	          Aldh7a1-/-	PBS                          	Plasma
+SA388601	     35	          Aldh7a1-/-	PBS                          	Plasma
+SA388602	     37	          Aldh7a1-/-	PBS	                          Plasma
+SA388603	     39	          Aldh7a1-/-	PBS	                          Plasma
+
+Collection ID:	CO003679
+
+Collection Summary:	Liver, brain, kidney, or plasma samples collected from mice treated with PBS or N-methyl-arginine (80 mg/kg) as a single intraperitoneal injection. Tissues collected 7-hours after injection.
+
+Sample Type:	Tissue or Plasma
+
+Treatment ID:	TR003695
+
+Treatment Summary:	Mice were administered a single intraperitoneal injection containing either saline or N-methyl-arginine (80 mg/kg). 7-hours after the injection, the mice were euthanized by cardiac puncture, and tissues were isolated for analysis by LCMS.
+
+Treatment Compound:	N-methyl-arginine
+
+Treatment Route:	Intraperitoneal
+
+Treatment Dose:	80 mg/kg
+
+Treatment Vehicle:	PBS
+
+Sample Preparation:
+
+Sampleprep ID:	SP003693
+
+Sampleprep Summary:	Dried samples were reconstituted in 50 µL of HPLC-grade water. Samples were vortexed for ~10 minutes, then centrifuged at 21,000 x g for 15 min at 4°C. 40 microliters were transferred to LC vials containing glass inserts for analysis.
+
+Analysis ID: 	AN005847	AN005848
+
+Analysis type: 	MS	MS
+
+Chromatography type:	HILIC	HILIC
+
+Chromatography system:	Thermo Vanquish	Thermo Vanquish
+
+Column:	Merck SeQuant ZIC-pHILIC (150 x 2.1mm, 5µm)	Merck SeQuant ZIC-pHILIC (150 x 2.1mm, 5µm)
+
+MS Type:	ESI	ESI
+
+MS instrument type:	Orbitrap	Orbitrap
+
+MS instrument name:	Thermo Orbitrap Exploris 240	Thermo Orbitrap Exploris 240
+
+Ion Mode:	POSITIVE	NEGATIVE
+
+Units:	Ion counts	Ion counts
+
+Chromatography ID:	CH004440
+
+Instrument Name:	Thermo Vanquish
+
+Column Name:	Merck SeQuant ZIC-pHILIC (150 x 2.1mm, 5µm)
+
+Column Temperature:	25°C
+
+Flow Gradient:	80-20%B (0-30 min), 20-20%B (30-40 minute), and 20-80%B (40-40.5 minute); the LC column was re-equilibrated using 80-80%B from 40.5-52 minute before subsequent injections
+
+Flow Rate:	100 µL/min
+
+Solvent A:	100% Water; 10 mM Ammonium Carbonate, pH 9.0
+
+Solvent B:	100% Acetonitrile
+
+Chromatography Type:	HILIC
+
+MS ID:	MS005567
+
+Analysis ID:	AN005847
+
+Instrument Name:	Thermo Orbitrap Exploris 240
+
+Instrument Type:	Orbitrap
+
+MS Type:	ESI
+
+MS Comments:	The LC was coupled to a Thermo Scientific Exploris 240 mass spectrometer operating in heated electrospray ionization mode (HESI) for analysis. The following parameters were set for HESI: spray voltage 3.4 kV (positive) and 2 kV (negative), static spray voltage, sheath gas 25, aux gas 5, sweep gas 0.5, ion transfer tube temperature 320°C, and vaporizer temperature 75°C. The global parameters included an expected peak width of 20 seconds, mild trapping, and a default charge state of 1. A 40-min polarity switching data-dependent Top 5 method was used for positive mode and a data-dependent Top 3 method was used for negative mode. Full MS scan parameters for both positive and negative modes were set as follows: scan range 67-1000 m/z collected in profile mode, Orbitrap resolution 120,000, RF lens 70%, AGC target of 300%, and maximum injection time set to automatic. ddMS2 for positive mode were collected in centroid mode at an Orbitrap resolution of 30,000, isolation window of 1.5 m/z, an AGC target set to standard, a maximum injection time set to automatic, and a normalized collision energy set to 10%, 30%, and 80%. ddMS2 for negative mode were collected in centroid mode at an Orbitrap resolution of 30,000, isolation window of 2 m/z, an AGC target set to standard, a maximum injection time set to automatic, and a normalized collision energy set to 30%. For both positive and negative ddMS2, we applied an intensity threshold of 5e4 and a dynamic exclusion of 5 ppm for 10 seconds, excluding isotopes. A targeted selected ion monitoring (tSIM) scan was also included for pipecolate and P6C/P2C, and the retention time ranges were based on elution of authentic standards (pipecolate) or from positive samples (Aldh7a1-deficient tissues). The tSIM scan for pipecolate was collected from 8-12 minutes in negative mode at an isolation window of 4 m/z (for metabolomics) or 18 m/z (for isotope-tracing experiments, to include m/z shifts), an Orbitrap resolution of 120,000, a RF lens at 70%, an automatic maximum injection time, and collected in profile mode. The tSIM scan for P6C/P2C was collected from 6-10 minutes in positive mode at an isolation window of 4 m/z (for metabolomics) or 18 m/z (for isotope-tracing experiments, to include m/z shifts), an Orbitrap resolution of 120,000, a RF lens at 70%, an automatic maximum injection time, and collected in profile mode.
+
+Ion Mode:	POSITIVE
+ 	 
+MS ID:	MS005568
+
+Analysis ID:	AN005848
+
+Instrument Name:	Thermo Orbitrap Exploris 240
+
+Instrument Type:	Orbitrap
+
+MS Type:	ESI
+
+MS Comments:	The LC was coupled to a Thermo Scientific Exploris 240 mass spectrometer operating in heated electrospray ionization mode (HESI) for analysis. The following parameters were set for HESI: spray voltage 3.4 kV (positive) and 2 kV (negative), static spray voltage, sheath gas 25, aux gas 5, sweep gas 0.5, ion transfer tube temperature 320°C, and vaporizer temperature 75°C. The global parameters included an expected peak width of 20 seconds, mild trapping, and a default charge state of 1. A 40-min polarity switching data-dependent Top 5 method was used for positive mode and a data-dependent Top 3 method was used for negative mode. Full MS scan parameters for both positive and negative modes were set as follows: scan range 67-1000 m/z collected in profile mode, Orbitrap resolution 120,000, RF lens 70%, AGC target of 300%, and maximum injection time set to automatic. ddMS2 for positive mode were collected in centroid mode at an Orbitrap resolution of 30,000, isolation window of 1.5 m/z, an AGC target set to standard, a maximum injection time set to automatic, and a normalized collision energy set to 10%, 30%, and 80%. ddMS2 for negative mode were collected in centroid mode at an Orbitrap resolution of 30,000, isolation window of 2 m/z, an AGC target set to standard, a maximum injection time set to automatic, and a normalized collision energy set to 30%. For both positive and negative ddMS2, we applied an intensity threshold of 5e4 and a dynamic exclusion of 5 ppm for 10 seconds, excluding isotopes. A targeted selected ion monitoring (tSIM) scan was also included for pipecolate and P6C/P2C, and the retention time ranges were based on elution of authentic standards (pipecolate) or from positive samples (Aldh7a1-deficient tissues). The tSIM scan for pipecolate was collected from 8-12 minutes in negative mode at an isolation window of 4 m/z (for metabolomics) or 18 m/z (for isotope-tracing experiments, to include m/z shifts), an Orbitrap resolution of 120,000, a RF lens at 70%, an automatic maximum injection time, and collected in profile mode. The tSIM scan for P6C/P2C was collected from 6-10 minutes in positive mode at an isolation window of 4 m/z (for metabolomics) or 18 m/z (for isotope-tracing experiments, to include m/z shifts), an Orbitrap resolution of 120,000, a RF lens at 70%, an automatic maximum injection time, and collected in profile mode.
+
+Ion Mode:	NEGATIVE
